@@ -1,10 +1,8 @@
-import { MouseEvent, useState } from 'react'
+import { MouseEvent } from 'react'
 import Button from './components/Button/Button'
 
 
 function App() {
-
-  const [counter, setCounter] = useState<number>(0)
 
   const addCounter = (e: MouseEvent) => {
     console.log(e);
@@ -12,7 +10,7 @@ function App() {
 
   return (
     <>
-        <Button onClick={addCounter}>Кнопка</Button>
+        <Button onClick={addCounter} appearence='big'>Кнопка</Button>
     </>
   )
 }
