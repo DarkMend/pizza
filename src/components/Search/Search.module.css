@@ -1,0 +1,21 @@
+.search{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    border: 1px solid #EFEFEF;
+    width: 256px;
+    padding: 20px;
+    gap: 12px;
+}
+
+.input{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+
+.input::placeholder{
+    color: #9AA0B4;
+}

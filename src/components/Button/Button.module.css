@@ -1,15 +1,19 @@
 .button{
-    display: block;
+    display: flex;
     border: none;
-    width: 248px;
-    height: 60px;
     cursor: pointer;
     border-radius: 100px;
-    font-size: 15px;
-    font-weight: 600;
     background: #FE724C;
     color: white;
-    text-transform: uppercase
+    transition: all .3s ease;
+    border: 2px solid #FE724C;
+    height: 44px;
+    width: 141px;
+}
+
+.button:hover{
+    background: none;
+    color: #FE724C;
 }
 
 .button-small{
@@ -18,4 +22,12 @@
     font-weight: 400;
     height: 44px;
     width: 141px;
+}
+
+.button-big{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 248px;
+    height: 60px;
 }
