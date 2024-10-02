@@ -9,9 +9,18 @@ export function Menu() {
         <>
             <div className={styles['head']}>
                 <Headling>Меню</Headling>
-                <Search placeholder="Введите блюдо или состав"/>
+                <Search placeholder="Введите блюдо или состав" />
             </div>
-            <CardProduct />
+            <div className={styles['menu__wrapper']}>
+                <CardProduct
+                    id={1}
+                    title="Наслаждение"
+                    description="Салями, руккола, помидоры, оливки"
+                    image="/img1.png"
+                    raiting={4.5}
+                    price={300}
+                />
+            </div>
         </>
     )
 }
