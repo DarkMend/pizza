@@ -9,7 +9,9 @@ export default function CardProduct(props: CardProductProps) {
                 <div className={styles['card-product']}>
                     <div className={styles['card-head']} style={
                         {
-                            backgroundImage: `url('${props.image}')`
+                            backgroundImage: `url('${props.image}')`,
+                            backgroundRepeat: 'no-repeat',
+                            backgroundSize: 'cover'
                         }
                     }>
                         <div className={styles['card-head__wrapper']}>
@@ -29,7 +31,7 @@ export default function CardProduct(props: CardProductProps) {
                     </div>
                     <div className={styles['card-info']}>
                         <p className={styles['title']}>
-                            {props.title}
+                            {props.name}
                         </p>
                         <p className={styles['text']}>
                             {props.description}
