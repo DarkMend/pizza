@@ -5,7 +5,7 @@ import { InputProps } from './Input.props';
 
 const Input =  forwardRef<HTMLInputElement,  InputProps>(function Input({isValid = true, className, ...props}, ref) {
     return (
-        <input ref={ref} type="text" className={cn(styles.input)} {...props}/>
+        <input ref={ref} type="text" className={cn(styles.input, className)} {...props}/>
     )
 });
 

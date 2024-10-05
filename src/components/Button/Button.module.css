@@ -1,5 +1,7 @@
 .button{
     display: flex;
+    justify-content: center;
+    align-items: center;
     border: none;
     cursor: pointer;
     border-radius: 100px;
