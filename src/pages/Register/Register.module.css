@@ -1,0 +1,45 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-input{
+    width: 325px;
+}
+
+.reg{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.reg-button{
+    color: #FE724C;
+}
+
+.error{
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #711f08;
+    color: white;
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    text-align: center;
+}
