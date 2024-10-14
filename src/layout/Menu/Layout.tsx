@@ -56,7 +56,7 @@ export function Layout() {
                                 <img src="/cart-icon.svg" alt="" />
                             </div>
                             <p>Корзина</p>
-                            {items.reduce((acc, item) => acc += item.count, 0)  }
+                            <span className={styles['cart-count']}>{items.reduce((acc, item) => acc += item.count, 0)  }</span>
                         </NavLink>
                     </div>
                 </div>
